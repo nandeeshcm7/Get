@@ -13,7 +13,7 @@ var mailer = require('./mailer.js')
 mongoose.Promise = global.Promise;
 
 // db connection
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds211029.mlab.com:11029/heroku_9pl516mr', function(err) {
+mongoose.connect('mongodb://nandeesh:password@ds211029.mlab.com:11029/heroku_9pl516mr', function(err) {
     if(err)
 {        console.log('connection error', err);
     } else {
